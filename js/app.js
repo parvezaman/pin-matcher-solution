@@ -56,12 +56,10 @@ function verifyPin(){
         // alert('matched');
         successNotification.style.display = 'block';
         failNotification.style.display = 'none';
-
     }
     else{
         // alert('didnt match');
         failNotification.style.display = 'block';
         successNotification.style.display = 'none';
-
     }
 }
